@@ -1,0 +1,40 @@
+{
+  "name": "TringTring",
+  "version": "1.0.0",
+  "description": "Project TringTring-Boxes\r Gebruik source om in te bouwen.",
+  "main": "index.js",
+  "scripts": {
+    "cssmin": "cleancss  -o ./dist/css/style.css ./dist/css/style.css",
+    "imagemin": "node buildTools/imagemin.js",
+    "build": "eleventy  && npm run cssmin && npm run imagemin ",
+    "test": "eleventy --output=dev --serve --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOURFUTUREACADEMY/tringtring-boxes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YOURFUTUREACADEMY/tringtring-boxes/issues"
+  },
+  "homepage": "https://github.com/YOURFUTUREACADEMY/tringtring-boxes#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0",
+    "@11ty/eleventy-navigation": "^0.1.5",
+    "eleventy": "^1.0.6",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-mozjpeg": "^8.0.0",
+    "imagemin-svgo": "^7.1.0",
+    "onchange": "^6.1.1"
+  },
+  "dependencies": {
+    "clean-css-cli": "^4.3.0",
+    "imagemin": "^7.0.1",
+    "imagemin-jpegtran": "^6.0.0",
+    "imagemin-keep-folder": "^5.3.2",
+    "imagemin-pngquant": "^8.0.0",
+    "nunjucks": "^3.2.1"
+  }
+}
