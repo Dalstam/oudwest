@@ -1,7 +1,7 @@
 {
-  "name": "TringTring",
+  "name": "Rijwiel Handel",
   "version": "1.0.0",
-  "description": "Project TringTring-Boxes\r Gebruik source om in te bouwen.",
+  "description": "Rijwielahndel",
   "main": "index.js",
   "scripts": {
     "cssmin": "cleancss  -o ./dist/css/style.css ./dist/css/style.css",
@@ -9,17 +9,9 @@
     "build": "eleventy  && npm run cssmin && npm run imagemin ",
     "test": "eleventy --output=dev --serve --watch"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/YOURFUTUREACADEMY/tringtring-boxes.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/YOURFUTUREACADEMY/tringtring-boxes/issues"
-  },
-  "homepage": "https://github.com/YOURFUTUREACADEMY/tringtring-boxes#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.10.0",
     "@11ty/eleventy-navigation": "^0.1.5",
