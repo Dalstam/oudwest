@@ -86,13 +86,13 @@
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
-  loader .inner1,
+  .loader .inner1,
   .loader .inner2,
   .loader .inner3 {
-    display: inline-block;
     width: 2em;
     height: 4em;
   }
+
   .header_area .navbar-brand {
     font-size: 20px;
   }
