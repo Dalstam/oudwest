@@ -139,8 +139,8 @@
   .oudwest-top-features-content {
     position: relative;
     bottom: -100px;
-    -webkit-transform: translateY(0%);
-    transform: translateY(0%);
+    -webkit-transform: translateY(-10%);
+    transform: translateY(-10%);
   }
   .about-us-text > h2 {
     font-size: 24px;
@@ -157,8 +157,8 @@
   .skills-side-thumb {
     position: relative;
     width: calc(100% - 15px);
-    -webkit-transform: translateY(0%);
-    transform: translateY(0%);
+    -webkit-transform: translateY(-10%);
+    transform: translateY(-10%);
     margin-bottom: 50px;
   }
   .footer-copywrite-area {
