@@ -104,10 +104,10 @@ li.noListStyle {
 
 #preloader {
   overflow: hidden;
-  background: #7450fe;
-  background: -webkit-linear-gradient(to right, #7450fe, #21d397);
-  background: -webkit-linear-gradient(left, #7450fe, #21d397);
-  background: linear-gradient(to right, #7450fe, #21d397);
+  background: #0c2e6f;
+  background: -webkit-linear-gradient(to right, #0c2e6f, #173f8d);
+  background: -webkit-linear-gradient(left, #0c2e6f, #173f8d);
+  background: linear-gradient(to right, #0c2e6f, #173f8d);
   height: 100%;
   left: 0;
   position: fixed;
@@ -117,12 +117,13 @@ li.noListStyle {
 }
 
 .loader {
-  width: 46px;
+  display: inline-block;
+  width: 50em;
   position: relative;
   top: 50%;
-  left: 50%;
+  left: 35%;
   margin-top: -12px;
-  margin-left: -23px;
+  /* margin-left: -23px; */
   z-index: 9;
 }
 
@@ -145,14 +146,13 @@ li.noListStyle {
 .loader .inner2,
 .loader .inner3 {
   display: inline-block;
-  margin: 0.125em;
-  width: 0.5em;
-  height: 0.5em;
-  border: 1px solid #fff;
-  border-radius: 1em;
-  background-color: #fff;
+  width: 7.5em;
+  height: 7.5em;
+  background-image: url(../img/logo.JPG);
+  background-size: contain;
+  background-repeat: no-repeat;
   -webkit-transform-origin: 50%;
-  -webkit-animation-duration: 0.75s;
+  -webkit-animation-duration: 1s;
   -webkit-animation-name: rotate;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
@@ -248,7 +248,7 @@ li.noListStyle {
 }
 
 #scrollUp:hover {
-  background-color: #7450fe;
+  background-color: #0c2e6f;
 }
 
 .section-heading {
@@ -312,16 +312,16 @@ li.noListStyle {
   padding: 0 10px;
   width: 160px;
   height: 46px;
-  border-left: 2px solid #7450fe;
-  border-right: 2px solid #21d397;
+  border-left: 2px solid #0c2e6f;
+  border-right: 2px solid #173f8d;
   box-sizing: border-box;
   background-position: 0 0, 0 100%;
   background-repeat: no-repeat;
   background-size: 100% 2px;
-  background-image: -webkit-linear-gradient(left, #7450fe 0%, #21d397 100%),
-    -webkit-linear-gradient(left, #7450fe 0%, #21d397 100%);
-  background-image: linear-gradient(to right, #7450fe 0%, #21d397 100%),
-    linear-gradient(to right, #7450fe 0%, #21d397 100%);
+  background-image: -webkit-linear-gradient(left, #0c2e6f 0%, #173f8d 100%),
+    -webkit-linear-gradient(left, #0c2e6f 0%, #173f8d 100%);
+  background-image: linear-gradient(to right, #0c2e6f 0%, #173f8d 100%),
+    linear-gradient(to right, #0c2e6f 0%, #173f8d 100%);
   -webkit-transition-duration: 1000ms;
   transition-duration: 1000ms;
   position: relative;
@@ -332,10 +332,10 @@ li.noListStyle {
   color: #fff;
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
-  background: #7450fe;
-  background: -webkit-linear-gradient(to right, #7450fe, #21d397);
-  background: -webkit-linear-gradient(left, #7450fe, #21d397);
-  background: linear-gradient(to right, #7450fe, #21d397);
+  background: #0c2e6f;
+  background: -webkit-linear-gradient(to right, #0c2e6f, #173f8d);
+  background: -webkit-linear-gradient(left, #0c2e6f, #173f8d);
+  background: linear-gradient(to right, #0c2e6f, #173f8d);
   content: "";
   position: absolute;
   width: 100%;
@@ -601,7 +601,7 @@ li.noListStyle {
 
 .oudwest-about-us-area {
   padding-top: 150px;
-  padding-bottom: 100px;
+  /* padding-bottom: 100px; */
 }
 
 .about-us-text > h2 {
@@ -652,10 +652,10 @@ li.noListStyle {
   display: block;
   position: relative;
   height: 100%;
-  background: #7450fe;
-  background: -webkit-linear-gradient(to right, #7450fe, #21d397);
-  background: -webkit-linear-gradient(left, #7450fe, #21d397);
-  background: linear-gradient(to right, #7450fe, #21d397);
+  background: #0c2e6f;
+  background: -webkit-linear-gradient(to right, #0c2e6f, #173f8d);
+  background: -webkit-linear-gradient(left, #0c2e6f, #173f8d);
+  background: linear-gradient(to right, #0c2e6f, #173f8d);
   z-index: 1;
 }
 
@@ -701,10 +701,10 @@ li.noListStyle {
 
 .single-service-area i {
   font-size: 40px;
-  background: #7450fe;
-  background: -webkit-linear-gradient(to right, #7450fe, #21d397);
-  background: -webkit-linear-gradient(left, #7450fe, #21d397);
-  background: linear-gradient(to right, #7450fe, #21d397);
+  background: #0c2e6f;
+  background: -webkit-linear-gradient(to right, #0c2e6f, #173f8d);
+  background: -webkit-linear-gradient(left, #0c2e6f, #173f8d);
+  background: linear-gradient(to right, #0c2e6f, #173f8d);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-transition-duration: 500ms;
@@ -755,10 +755,10 @@ li.noListStyle {
 .testimonilas-content span.quote {
   font-size: 120px;
   line-height: 1;
-  background: #7450fe;
-  background: -webkit-linear-gradient(to right, #7450fe, #21d397);
-  background: -webkit-linear-gradient(left, #7450fe, #21d397);
-  background: linear-gradient(to right, #7450fe, #21d397);
+  background: #0c2e6f;
+  background: -webkit-linear-gradient(to right, #0c2e6f, #173f8d);
+  background: -webkit-linear-gradient(left, #0c2e6f, #173f8d);
+  background: linear-gradient(to right, #0c2e6f, #173f8d);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -848,7 +848,7 @@ li.noListStyle {
 }
 
 .blog-content > a:hover {
-  color: #7450fe;
+  color: #0c2e6f;
 }
 
 /* Footer Area CSS */
@@ -896,10 +896,10 @@ li.noListStyle {
   color: #fff;
   text-transform: uppercase;
   font-weight: 600;
-  background: #7450fe;
-  background: -webkit-linear-gradient(to right, #7450fe, #21d397);
-  background: -webkit-linear-gradient(left, #7450fe, #21d397);
-  background: linear-gradient(to right, #7450fe, #21d397);
+  background: #0c2e6f;
+  background: -webkit-linear-gradient(to right, #0c2e6f, #173f8d);
+  background: -webkit-linear-gradient(left, #0c2e6f, #173f8d);
+  background: linear-gradient(to right, #0c2e6f, #173f8d);
 }
 
 .footer-social-widegt {
@@ -915,7 +915,7 @@ li.noListStyle {
 }
 
 .footer-social-widegt > a:hover {
-  color: #7450fe;
+  color: #0c2e6f;
 }
 
 .single-tweet a {
@@ -1208,7 +1208,7 @@ li.noListStyle {
 }
 
 .tags-widget > a:hover {
-  background-color: #7450fe;
+  background-color: #0c2e6f;
   color: #fff;
 }
 .bg-winkel {
