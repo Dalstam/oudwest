@@ -32,10 +32,10 @@
     color: #fff;
   }
   #oudwestNav {
-    background: #7450fe;
-    background: -webkit-linear-gradient(to right, #7450fe, #21d397);
-    background: -webkit-linear-gradient(left, #7450fe, #21d397);
-    background: linear-gradient(to right, #7450fe, #21d397);
+    background: #0c2e6f;
+    background: -webkit-linear-gradient(to right,  #0c2e6f, #173f8d7);
+    background: -webkit-linear-gradient(left,  #0c2e6f, #173f8d7);
+    background: linear-gradient(to right,  #0c2e6f, #173f8d7);
     padding: 15px;
     border-radius: 0 0 3px 3px;
     margin-top: -2px;
@@ -116,10 +116,10 @@
     color: #fff;
   }
   #oudwestNav {
-    background: #7450fe;
-    background: -webkit-linear-gradient(to right, #7450fe, #21d397);
-    background: -webkit-linear-gradient(left, #7450fe, #21d397);
-    background: linear-gradient(to right, #7450fe, #21d397);
+    background: #0c2e6f;
+    background: -webkit-linear-gradient(to right,  #0c2e6f, #173f8d7);
+    background: -webkit-linear-gradient(left,  #0c2e6f, #173f8d7);
+    background: linear-gradient(to right,  #0c2e6f, #173f8d7);
     padding: 15px 0;
     border-radius: 0 0 3px 3px;
     margin-top: -2px;
