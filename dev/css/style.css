@@ -1221,7 +1221,7 @@ li.noListStyle {
 .img-move-wrapper {
   position: relative;
   overflow: hidden;
-  max-width: 50vw;
+  max-width: 55%;
   margin: 0 auto;
 }
 

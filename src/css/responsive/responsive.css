@@ -13,6 +13,7 @@
   .oudwest-skills-area {
     /* padding: 100px; */
   }
+  \    padding-top: 4rem;
   .breadcumb-content h2 {
     font-size: 40px;
   }
@@ -65,6 +66,8 @@
   .oudwest-skills-area {
     /* padding: 100px 0; */
   }
+
+
   .section-heading h2 {
     font-size: 30px;
   }
@@ -83,6 +86,7 @@
   .blog-sidebar {
     margin-top: 100px;
   }
+
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
@@ -93,8 +97,11 @@
     height: 4em;
   }
 
+
+
   .header_area .navbar-brand {
     font-size: 20px;
+
   }
 
   .header_area {
@@ -153,8 +160,19 @@
   .about-us-text > h2 {
     font-size: 24px;
   }
-  .about-us-thumb {
-    margin-top: 50px;
+  ..img-move-wrapper{
+    display: none;
+  }
+ .img-move {
+    position: absolute;
+    width: 55%;
+  }
+  .img-move-1 {
+    left: 0;
+  }
+  .img-move-2 {
+    right: 0;
+    bottom: 0;
   }
   .oudwest-hero-area {
     height: 600px;
@@ -162,6 +180,11 @@
   .oudwest-skills-area {
     /* padding: 100px 0; */
   }
+
+      .oudwest-about-us-area {
+ padding-top: 4rem;
+    /* padding-bottom: 100px; */
+}
   .skills-side-thumb {
     position: relative;
     width: calc(100% - 15px);
@@ -196,5 +219,8 @@
   }
   .blog-sidebar {
     margin-top: 100px;
+  }
+  h3{
+    font-size: 1.5rem;
   }
 }
