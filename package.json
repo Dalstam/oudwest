@@ -13,7 +13,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^0.10.0",
+    "@11ty/eleventy": "^1.0.2",
     "@11ty/eleventy-navigation": "^0.1.5",
     "eleventy": "^1.0.6",
     "imagemin-gifsicle": "^7.0.0",
